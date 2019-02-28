@@ -9,10 +9,9 @@
 import UIKit
 
 public class LoginViewController: UIViewController {
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var forgotPasswordButton: UIButton!
+    
+    @IBOutlet weak var emailTextFld: UITextField!
+    @IBOutlet weak var passwordTextFld: UITextField!
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +19,11 @@ public class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction public func loginButtonTapped(_ sender: UIButton) {
-        print("username \(String(describing: emailTextField.text)) password \(String(describing: passwordTextField.text))")
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        print("username \(String(describing: emailTextFld.text)) password \(String(describing: passwordTextFld.text))")
     }
     
-    @IBAction public func forgotPasswordButtonTapped(_ sender: UIButton) {
+    @IBAction func forgotPasswordButtonTapped(_ sender: UIButton) {
         print("Can you help me out resetting the password?")
     }
     

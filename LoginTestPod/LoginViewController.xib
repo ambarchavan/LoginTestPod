@@ -12,10 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="LoginTestPod" customModuleProvider="target">
             <connections>
-                <outlet property="emailTextField" destination="Qm3-rw-MYK" id="ihu-rW-P47"/>
-                <outlet property="forgotPasswordButton" destination="X0B-pB-Atf" id="kpC-Hx-nkA"/>
-                <outlet property="loginButton" destination="eQM-bB-nDB" id="5rO-Qb-ux8"/>
-                <outlet property="passwordTextField" destination="ja4-q3-6Ua" id="DH3-sh-rQV"/>
+                <outlet property="emailTextFld" destination="Qm3-rw-MYK" id="eeW-qe-TT8"/>
+                <outlet property="passwordTextFld" destination="ja4-q3-6Ua" id="n2r-wm-ntO"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
