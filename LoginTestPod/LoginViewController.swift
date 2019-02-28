@@ -15,8 +15,6 @@ public class LoginViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func loginButtonTapped(_ sender: UIButton) {
@@ -28,6 +26,7 @@ public class LoginViewController: UIViewController {
     }
     
     public init() {
+        emailTextFld.text = "myemail@gmail.com"
         super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
     }
     
