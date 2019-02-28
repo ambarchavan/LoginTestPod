@@ -30,8 +30,16 @@ public class LoginViewController: UIViewController {
     public init() {
         super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
     }
-    required public init?(coder aDecoder: NSCoder) {
+    
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+//    public init() {
+//        super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
+//    }
+//    required public init?(coder aDecoder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
 
 }
