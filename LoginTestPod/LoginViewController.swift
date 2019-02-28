@@ -30,7 +30,7 @@ public class LoginViewController: UIViewController {
     
     public init() {
         super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
-        self.emailTextField.backgroundColor = UIColor.red
+        emailTextField.backgroundColor = UIColor.red
     }
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
