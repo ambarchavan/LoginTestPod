@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LoginTestPod'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'My first project LoginTestPod.'
   
   s.description      = <<-DESC
